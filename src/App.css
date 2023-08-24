@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: none;
+  min-height: 20vh !important;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem !important; 
+  width: 1300px;
+  min-height: 20vh;
+} 
+
+.logo{
+  width: 190px;
+} 
+
+.navbar ul{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;  
+  font-size: 19px;
+  color: #5d9b9b;
+  font-weight: bold;
+}
+
+.carrito{
+  width: 40px;
+} 
+
+.cantidad{
+  width: 50px;
+}
+.saludo{
+  text-align: center;
+  background-color: #5d9b9b;
+}
